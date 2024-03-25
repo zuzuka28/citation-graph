@@ -105,6 +105,7 @@ def to_graph(data: pandas.DataFrame):
             })
 
     net = Network(
+        directed=True,
         bgcolor="#ffffff",
         height="750px",
         width="100%",
